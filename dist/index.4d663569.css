@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  display: flex;
+}
+
+.outer-container {
+  width: 100vw;
+  height: 100vh;
+  border: 2px solid red;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.inner-container {
+  width: 400px;
+  height: 500px;
+  background: #90ee90;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+  display: flex;
+}
+
+.sign-up-title {
+  font-size: 3em;
+}
+
+.input-form {
+  flex-direction: column;
+  display: flex;
+}
+
+#username-message {
+  color: red;
+  padding: 0 0 20px;
+  font-size: 13px;
+}
+
+#password-message {
+  color: red;
+  font-size: 13px;
+}
+
+.input-form input {
+  width: 200px;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */

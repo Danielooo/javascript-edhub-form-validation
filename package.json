@@ -1,0 +1,16 @@
+{
+  "name": "javascript-edhub-form-validation",
+  "version": "1.0.0",
+  "description": "## Globale beschrijving Je gaat een sign-up pagina maken met daarin een invoerveld voor het **wachtwoord** en voor de **gebruikersnaam**. Met behulp van JavaScript ga je de waardes die de gebruiker intypt, valideren.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  }
+}

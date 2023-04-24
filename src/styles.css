@@ -1,0 +1,55 @@
+
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  display: flex;
+}
+
+.outer-container {
+  border: 2px solid red;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  background: lightgreen;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.sign-up-title {
+  font-size: 3em;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#username-message {
+  padding: 0 0 20px 0;
+  font-size: 13px;
+  color: red;
+}
+
+#password-message {
+  font-size: 13px;
+  color: red;
+}
+
+.input-form input {
+  width: 200px;
+}
+
+
